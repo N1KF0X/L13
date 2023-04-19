@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace L_13
+namespace L13
 {
     internal class Program
     {
@@ -19,6 +19,16 @@ namespace L_13
 
             bibioteka.Date(book, 02.03f, 200);
             bibioteka1.Date(book, "02.03", 200);
+
+            User<int> user = new User<int>();
+            User<string> user1 = new User<string>();
+
+            user.Autariretion(33242424, "232321323");
+            user1.Autariretion("wwewqeqe", "321331313");
+
+            Buy<int> buy = new Buy<int>();
+
+            buy.Buing(343242442, book);
 
         }
     }

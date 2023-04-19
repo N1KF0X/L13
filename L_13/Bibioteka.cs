@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace L_13
+namespace L13
 {
-    internal class Bibioteka <T>: IBook
+    internal class Bibioteka<T>: IBook<T>
     {
+
         public void Date(string bookName, T date, int pagesAmount)
         {
             Console.WriteLine("Книга " + bookName + ":\n" +
@@ -18,7 +19,7 @@ namespace L_13
 
         public void NewBook(string autor, string bookName)
         {
-            Console.WriteLine(autor + " выпустил книгу - " + bookName + "\n");
+            Console.WriteLine(autor + " выпустил книгу - " + bookName + "\n");  
         }
     }
 }

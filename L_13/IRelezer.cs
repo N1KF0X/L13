@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace L13
 {
-    internal interface IBook<T>: IRelezer
+    internal interface IRelezer
     {
-        void Date(string bookName, T date, int pagesAmount);
+        void NewBook(string autor, string bookName);
     }
 }

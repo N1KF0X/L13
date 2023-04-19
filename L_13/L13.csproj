@@ -44,11 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bibioteka.cs" />
+    <Compile Include="Buy.cs" />
     <Compile Include="IBook.cs" />
-    <Compile Include="IBook1.cs" />
+    <Compile Include="IUser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Relezer.cs" />
+    <Compile Include="IRelezer.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

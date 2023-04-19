@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace L_13
+namespace L13
 {
-    internal interface IRelezer
+    internal interface IUser <T>
     {
-        void NewBook(string autor, string bookName);
+        void Autariretion(T login, string password);
     }
 }
